@@ -1,0 +1,2080 @@
+[
+  {
+    "word": "Abide",
+    "ps": "Abided/Abode",
+    "pp": "Abided",
+    "translation": {
+      "Arabic": "التزم",
+      "Russian": "соблюдать",
+      "Uzbek": "Qolmoq"
+    }
+  },
+  {
+    "word": "Arise",
+    "ps": "Arose",
+    "pp": "Arisen",
+    "translation": { "Arabic": "نشأ", "Russian": "возникать", "Uzbek": "Turmoq" }
+  },
+  {
+    "word": "Awake",
+    "ps": "Awoke",
+    "pp": "Awoken",
+    "translation": {
+      "Arabic": "استيقظ",
+      "Russian": "проснуться",
+      "Uzbek": "Uyg'onmoq"
+    }
+  },
+  {
+    "word": "Be",
+    "ps": "Was/Were",
+    "pp": "Been",
+    "translation": { "Arabic": "يكون", "Russian": "быть", "Uzbek": "Bo'lmoq" }
+  },
+  {
+    "word": "Bear",
+    "ps": "Bore",
+    "pp": "Borne/Born",
+    "translation": { "Arabic": "تحمل", "Russian": "нести", "Uzbek": "Zerikmoq" }
+  },
+  {
+    "word": "Beat",
+    "ps": "Beat",
+    "pp": "Beaten",
+    "translation": { "Arabic": "فاز", "Russian": "бить", "Uzbek": "Urmoq, Urishmoq" }
+  },
+  {
+    "word": "Become",
+    "ps": "Became",
+    "pp": "Become",
+    "translation": {
+      "Arabic": "أصبح",
+      "Russian": "становиться",
+      "Uzbek": "Bo'lmoq"
+    }
+  },
+  {
+    "word": "Befall",
+    "ps": "Befell",
+    "pp": "Befallen",
+    "translation": {
+      "Arabic": "مس",
+      "Russian": "приключаться",
+      "Uzbek": "Tushish"
+    }
+  },
+  {
+    "word": "Beget",
+    "ps": "Begot",
+    "pp": "Begotten",
+    "translation": { "Arabic": "نجب", "Russian": "порождать", "Uzbek": "Beget" }
+  },
+  {
+    "word": "Begin",
+    "ps": "Began",
+    "pp": "Begun",
+    "translation": {
+      "Arabic": "بدأ",
+      "Russian": "начинаться",
+      "Uzbek": "Boshlanishi"
+    }
+  },
+  {
+    "word": "Behold",
+    "ps": "Beheld",
+    "pp": "Beheld",
+    "translation": { "Arabic": "لمح", "Russian": "созерцать", "Uzbek": "Mana" }
+  },
+  {
+    "word": "Bend",
+    "ps": "Bent",
+    "pp": "Bent",
+    "translation": {
+      "Arabic": "انحنى",
+      "Russian": "сгибаться",
+      "Uzbek": "Bukish"
+    }
+  },
+  {
+    "word": "Bereave",
+    "ps": "Bereft",
+    "pp": "Bereft",
+    "translation": { "Arabic": "ثكل", "Russian": "лишать", "Uzbek": "Bemor" }
+  },
+  {
+    "word": "Beseech",
+    "ps": "Besought/Beseeched",
+    "pp": "Besought/Beseeched",
+    "translation": {
+      "Arabic": "التمس",
+      "Russian": "умолять",
+      "Uzbek": "Iltimos"
+    }
+  },
+  {
+    "word": "Beset",
+    "ps": "Beset",
+    "pp": "Beset",
+    "translation": { "Arabic": "هاجم", "Russian": "окружать", "Uzbek": "Beset" }
+  },
+  {
+    "word": "Bet",
+    "ps": "Bet/Betted",
+    "pp": "Bet/Betted",
+    "translation": {
+      "Arabic": "مراهنة",
+      "Russian": "держать пари",
+      "Uzbek": "Gambling"
+    }
+  },
+  {
+    "word": "Bid",
+    "ps": "Bid/Bade",
+    "pp": "Bid/Bidden",
+    "translation": {
+      "Arabic": "عرض",
+      "Russian": "предлагать цену",
+      "Uzbek": "Taklif"
+    }
+  },
+  {
+    "word": "Bide",
+    "ps": "Bode/Bided",
+    "pp": "Bided",
+    "translation": {
+      "Arabic": "أقام في",
+      "Russian": "выжидать",
+      "Uzbek": "Bide"
+    }
+  },
+  {
+    "word": "Bind",
+    "ps": "Bound",
+    "pp": "Bound",
+    "translation": {
+      "Arabic": "ربط",
+      "Russian": "связывать",
+      "Uzbek": "Bog'lash"
+    }
+  },
+  {
+    "word": "Bite",
+    "ps": "Bit",
+    "pp": "Bitten",
+    "translation": {
+      "Arabic": "عض",
+      "Russian": "кусаться",
+      "Uzbek": "Tishlash"
+    }
+  },
+  {
+    "word": "Bleed",
+    "ps": "Bled",
+    "pp": "Bled",
+    "translation": {
+      "Arabic": "ينزف",
+      "Russian": "кровоточить",
+      "Uzbek": "Qon ketishi"
+    }
+  },
+  {
+    "word": "Blow",
+    "ps": "Blew",
+    "pp": "Blown",
+    "translation": { "Arabic": "هجوم", "Russian": "дуть", "Uzbek": "Puflamoq" }
+  },
+  {
+    "word": "Break",
+    "ps": "Broke",
+    "pp": "Broken",
+    "translation": { "Arabic": "كسر", "Russian": "ломать", "Uzbek": "Tanaffus" }
+  },
+  {
+    "word": "Breed",
+    "ps": "Bred",
+    "pp": "Bred",
+    "translation": {
+      "Arabic": "نسل",
+      "Russian": "размножаться",
+      "Uzbek": "Zot"
+    }
+  },
+  {
+    "word": "Bring",
+    "ps": "Brought",
+    "pp": "Brought",
+    "translation": {
+      "Arabic": "جلب",
+      "Russian": "приносить",
+      "Uzbek": "Olib keling"
+    }
+  },
+  {
+    "word": "Broadcast",
+    "ps": "Broadcast",
+    "pp": "Broadcast",
+    "translation": {
+      "Arabic": "بث",
+      "Russian": "вещать",
+      "Uzbek": "Translyatsiya"
+    }
+  },
+  {
+    "word": "Build",
+    "ps": "Built",
+    "pp": "Built",
+    "translation": { "Arabic": "بنى", "Russian": "строить", "Uzbek": "Qurmoq" }
+  },
+  {
+    "word": "Burn",
+    "ps": "Burnt/Burned",
+    "pp": "Burnt/Burned",
+    "translation": { "Arabic": "أحرق", "Russian": "гореть", "Uzbek": "Kuyish" }
+  },
+  {
+    "word": "Burst",
+    "ps": "Burst",
+    "pp": "Burst",
+    "translation": {
+      "Arabic": "انفجار",
+      "Russian": "взрыв",
+      "Uzbek": "Portlash"
+    }
+  },
+  {
+    "word": "Buy",
+    "ps": "Bought",
+    "pp": "Bought",
+    "translation": {
+      "Arabic": "اشترى",
+      "Russian": "купить",
+      "Uzbek": "Sotib olish"
+    }
+  },
+  {
+    "word": "Cast",
+    "ps": "Cast",
+    "pp": "Cast",
+    "translation": { "Arabic": "ألقى", "Russian": "отливать", "Uzbek": "Cast" }
+  },
+  {
+    "word": "Catch",
+    "ps": "Caught",
+    "pp": "Caught",
+    "translation": {
+      "Arabic": "قبض على",
+      "Russian": "поймать",
+      "Uzbek": "Tutib oling"
+    }
+  },
+  {
+    "word": "Chide",
+    "ps": "Chided/Chid",
+    "pp": "Chid/Chidden",
+    "translation": { "Arabic": "وبخ", "Russian": "бранить", "Uzbek": "Chide" }
+  },
+  {
+    "word": "Choose",
+    "ps": "Chose",
+    "pp": "Chosen",
+    "translation": {
+      "Arabic": "اختار",
+      "Russian": "выбирать",
+      "Uzbek": "Tanlang"
+    }
+  },
+  {
+    "word": "Cleave",
+    "ps": "Cleft/Cleaved/Clove",
+    "pp": "Cleft/Cleaved/Cloven",
+    "translation": {
+      "Arabic": "انفسخ",
+      "Russian": "раскалывать",
+      "Uzbek": "Yirmoq"
+    }
+  },
+  {
+    "word": "Cling",
+    "ps": "Clung",
+    "pp": "Clung",
+    "translation": {
+      "Arabic": "تشبث",
+      "Russian": "цепляться",
+      "Uzbek": "Yopish"
+    }
+  },
+  {
+    "word": "Clothe",
+    "ps": "Clothed/Clad",
+    "pp": "Clothed/Clad",
+    "translation": {
+      "Arabic": "الملبس",
+      "Russian": "одевать",
+      "Uzbek": "Kiyim"
+    }
+  },
+  {
+    "word": "Come",
+    "ps": "Came",
+    "pp": "Come",
+    "translation": { "Arabic": "جاء", "Russian": "приходить", "Uzbek": "Kel" }
+  },
+  {
+    "word": "Cost",
+    "ps": "Cost",
+    "pp": "Cost",
+    "translation": { "Arabic": "كلف", "Russian": "стоить", "Uzbek": "Narxi" }
+  },
+  {
+    "word": "Creep",
+    "ps": "Crept",
+    "pp": "Crept",
+    "translation": {
+      "Arabic": "زحف",
+      "Russian": "ползать",
+      "Uzbek": "O'rmalash"
+    }
+  },
+  {
+    "word": "Crow",
+    "ps": "Crew",
+    "pp": "Crowed",
+    "translation": {
+      "Arabic": "تبجح",
+      "Russian": "кукарекать",
+      "Uzbek": "Qarg'a"
+    }
+  },
+  {
+    "word": "Cut",
+    "ps": "Cut",
+    "pp": "Cut",
+    "translation": { "Arabic": "قطع", "Russian": "вырезать", "Uzbek": "Kesish" }
+  },
+  {
+    "word": "Deal",
+    "ps": "Dealt",
+    "pp": "Dealt",
+    "translation": {
+      "Arabic": "تعامل",
+      "Russian": "иметь дело",
+      "Uzbek": "Bitim"
+    }
+  },
+  {
+    "word": "Dig",
+    "ps": "Dug",
+    "pp": "Dug",
+    "translation": { "Arabic": "حفر", "Russian": "копать", "Uzbek": "qazish" }
+  },
+  {
+    "word": "Dive",
+    "ps": "Dived/Dove",
+    "pp": "Dived",
+    "translation": {
+      "Arabic": "غوص",
+      "Russian": "нырять",
+      "Uzbek": "Sho'ng'in"
+    }
+  },
+  {
+    "word": "Do",
+    "ps": "Did",
+    "pp": "Done",
+    "translation": { "Arabic": "فعل", "Russian": "делать", "Uzbek": "Do" }
+  },
+  {
+    "word": "Draw",
+    "ps": "Drew",
+    "pp": "Drawn",
+    "translation": {
+      "Arabic": "رسم",
+      "Russian": "рисовать",
+      "Uzbek": "Chizish"
+    }
+  },
+  {
+    "word": "Dream",
+    "ps": "Dreamt/Dreamed",
+    "pp": "Dreamt/Dreamed",
+    "translation": { "Arabic": "حلم", "Russian": "мечтать", "Uzbek": "Orzu" }
+  },
+  {
+    "word": "Drink",
+    "ps": "Drank",
+    "pp": "Drunk",
+    "translation": { "Arabic": "شرب", "Russian": "пить", "Uzbek": "Ichish" }
+  },
+  {
+    "word": "Drive",
+    "ps": "Drove",
+    "pp": "Driven",
+    "translation": { "Arabic": "دفع", "Russian": "ездить", "Uzbek": "Haydash" }
+  },
+  {
+    "word": "Dwell",
+    "ps": "Dwelt/Dwelled",
+    "pp": "Dwelt/Dwelled",
+    "translation": { "Arabic": "سكن", "Russian": "обитать", "Uzbek": "Turing" }
+  },
+  {
+    "word": "Eat",
+    "ps": "Ate",
+    "pp": "Eaten",
+    "translation": { "Arabic": "أكل", "Russian": "есть", "Uzbek": "Yemoq" }
+  },
+  {
+    "word": "Fall",
+    "ps": "Fell",
+    "pp": "Fallen",
+    "translation": { "Arabic": "سقط", "Russian": "падать", "Uzbek": "Kuz" }
+  },
+  {
+    "word": "Feed",
+    "ps": "Fed",
+    "pp": "Fed",
+    "translation": {
+      "Arabic": "أطعم",
+      "Russian": "кормить",
+      "Uzbek": "Oziqlantirish"
+    }
+  },
+  {
+    "word": "Feel",
+    "ps": "Felt",
+    "pp": "Felt",
+    "translation": { "Arabic": "شعر", "Russian": "чувствовать", "Uzbek": "His" }
+  },
+  {
+    "word": "Fight",
+    "ps": "Fought",
+    "pp": "Fought",
+    "translation": { "Arabic": "تقاتل", "Russian": "бороться", "Uzbek": "Jang" }
+  },
+  {
+    "word": "Find",
+    "ps": "Found",
+    "pp": "Found",
+    "translation": { "Arabic": "وجد", "Russian": "находить", "Uzbek": "Toping" }
+  },
+  {
+    "word": "Flee",
+    "ps": "Fled",
+    "pp": "Fled",
+    "translation": { "Arabic": "هرب", "Russian": "бежать", "Uzbek": "Qoch" }
+  },
+  {
+    "word": "Fling",
+    "ps": "Flung",
+    "pp": "Flung",
+    "translation": { "Arabic": "قذف", "Russian": "швырять", "Uzbek": "Fling" }
+  },
+  {
+    "word": "Fly",
+    "ps": "Flew",
+    "pp": "Flown",
+    "translation": { "Arabic": "سافر", "Russian": "летать", "Uzbek": "Pashsha" }
+  },
+  {
+    "word": "Forbear",
+    "ps": "Forbore",
+    "pp": "Forborne",
+    "translation": {
+      "Arabic": "تذرع بالصبر",
+      "Russian": "воздерживаться",
+      "Uzbek": "Sabr qiling"
+    }
+  },
+  {
+    "word": "Forbid",
+    "ps": "Forbade",
+    "pp": "Forbidden",
+    "translation": {
+      "Arabic": "حرم",
+      "Russian": "запрещать",
+      "Uzbek": "Taqiqlash"
+    }
+  },
+  {
+    "word": "Forecast",
+    "ps": "Forecast/Forecasted",
+    "pp": "Forecast/Forecasted",
+    "translation": {
+      "Arabic": "أنذر",
+      "Russian": "прогнозировать",
+      "Uzbek": "Prognoz"
+    }
+  },
+  {
+    "word": "Forego",
+    "ps": "Forewent",
+    "pp": "Foregone",
+    "translation": {
+      "Arabic": "التخلي عن",
+      "Russian": "предшествовать",
+      "Uzbek": "Oldinga"
+    }
+  },
+  {
+    "word": "Foresee",
+    "ps": "Foresaw",
+    "pp": "Foreseen",
+    "translation": {
+      "Arabic": "توقع",
+      "Russian": "предвидеть",
+      "Uzbek": "Oldindan ko'rish"
+    }
+  },
+  {
+    "word": "Foretell",
+    "ps": "Foretold",
+    "pp": "Foretold",
+    "translation": {
+      "Arabic": "تكهن",
+      "Russian": "предсказывать",
+      "Uzbek": "Bashorat qilish"
+    }
+  },
+  {
+    "word": "Forget",
+    "ps": "Forgot",
+    "pp": "Forgotten",
+    "translation": { "Arabic": "ننسى", "Russian": "забывать", "Uzbek": "Unut" }
+  },
+  {
+    "word": "Forgive",
+    "ps": "Forgave",
+    "pp": "Forgiven",
+    "translation": {
+      "Arabic": "غفر",
+      "Russian": "прощать",
+      "Uzbek": "Kechirasiz"
+    }
+  },
+  {
+    "word": "Forgo",
+    "ps": "Forwent",
+    "pp": "Forgone",
+    "translation": {
+      "Arabic": "التخلي عن",
+      "Russian": "отказываться",
+      "Uzbek": "Tashlab ket"
+    }
+  },
+  {
+    "word": "Forsake",
+    "ps": "Forsook",
+    "pp": "Forsaken",
+    "translation": {
+      "Arabic": "هجر",
+      "Russian": "отказываться",
+      "Uzbek": "Tashlab ketish"
+    }
+  },
+  {
+    "word": "Forswear",
+    "ps": "Forswore",
+    "pp": "Forsworn",
+    "translation": {
+      "Arabic": "إبتعد عن",
+      "Russian": "зарекаться",
+      "Uzbek": "Qasam ichish"
+    }
+  },
+  {
+    "word": "Freeze",
+    "ps": "Froze",
+    "pp": "Frozen",
+    "translation": {
+      "Arabic": "تجمد",
+      "Russian": "замерзать",
+      "Uzbek": "Muzlatish"
+    }
+  },
+  {
+    "word": "Gainsay",
+    "ps": "Gainsaid",
+    "pp": "Gainsaid",
+    "translation": {
+      "Arabic": "نكر",
+      "Russian": "противоречить",
+      "Uzbek": "Gainsay"
+    }
+  },
+  {
+    "word": "Get",
+    "ps": "Got",
+    "pp": "Got/Gotten",
+    "translation": {
+      "Arabic": "الحصول على",
+      "Russian": "получать",
+      "Uzbek": "Oling"
+    }
+  },
+  {
+    "word": "Gird",
+    "ps": "Girded/Girt",
+    "pp": "Girded/Girt",
+    "translation": {
+      "Arabic": "كسا",
+      "Russian": "опоясывать",
+      "Uzbek": "Kamar"
+    }
+  },
+  {
+    "word": "Give",
+    "ps": "Gave",
+    "pp": "Given",
+    "translation": { "Arabic": "منح", "Russian": "давать", "Uzbek": "Bering" }
+  },
+  {
+    "word": "Go",
+    "ps": "Went",
+    "pp": "Gone",
+    "translation": { "Arabic": "تذهب", "Russian": "идти", "Uzbek": "Bor" }
+  },
+  {
+    "word": "Grind",
+    "ps": "Ground",
+    "pp": "Ground",
+    "translation": {
+      "Arabic": "طحن",
+      "Russian": "молоть",
+      "Uzbek": "Maydalash"
+    }
+  },
+  {
+    "word": "Grow",
+    "ps": "Grew",
+    "pp": "Grown",
+    "translation": { "Arabic": "زرع", "Russian": "расти", "Uzbek": "O'sish" }
+  },
+  {
+    "word": "Hamstring",
+    "ps": "Hamstrung",
+    "pp": "Hamstrung",
+    "translation": {
+      "Arabic": "جعله عاجزاجعله عاجزا",
+      "Russian": "подрезать крылья",
+      "Uzbek": "Hamstring"
+    }
+  },
+  {
+    "word": "Hang",
+    "ps": "Hung",
+    "pp": "Hung",
+    "translation": {
+      "Arabic": "علق",
+      "Russian": "вешать",
+      "Uzbek": "Kutib turing"
+    }
+  },
+  {
+    "word": "Have",
+    "ps": "Had",
+    "pp": "Had",
+    "translation": { "Arabic": "سحب", "Russian": "иметь", "Uzbek": "bor" }
+  },
+  {
+    "word": "Hear",
+    "ps": "Heard",
+    "pp": "Heard",
+    "translation": {
+      "Arabic": "سمع",
+      "Russian": "слышать",
+      "Uzbek": "Eshiting"
+    }
+  },
+  {
+    "word": "Heave",
+    "ps": "Heaved/Hove",
+    "pp": "Heaved/Hove",
+    "translation": {
+      "Arabic": "جيشان",
+      "Russian": "бросать",
+      "Uzbek": "Ko'taring"
+    }
+  },
+  {
+    "word": "Hew",
+    "ps": "Hewed",
+    "pp": "Hewed/Hewn",
+    "translation": { "Arabic": "حطب", "Russian": "рубить", "Uzbek": "Hew" }
+  },
+  {
+    "word": "Hide",
+    "ps": "Hid",
+    "pp": "Hidden",
+    "translation": {
+      "Arabic": "جلد",
+      "Russian": "скрывать",
+      "Uzbek": "Yashirish"
+    }
+  },
+  {
+    "word": "Hit",
+    "ps": "Hit",
+    "pp": "Hit",
+    "translation": { "Arabic": "ضرب", "Russian": "удариться", "Uzbek": "Urish" }
+  },
+  {
+    "word": "Hold",
+    "ps": "Held",
+    "pp": "Held",
+    "translation": { "Arabic": "عقد", "Russian": "держать", "Uzbek": "Tutmoq" }
+  },
+  {
+    "word": "Hurt",
+    "ps": "Hurt",
+    "pp": "Hurt",
+    "translation": { "Arabic": "جرح", "Russian": "боль", "Uzbek": "Ozor" }
+  },
+  {
+    "word": "Input",
+    "ps": "Input",
+    "pp": "Input",
+    "translation": {
+      "Arabic": "مساهمة",
+      "Russian": "вводить",
+      "Uzbek": "Kiritish"
+    }
+  },
+  {
+    "word": "Keep",
+    "ps": "Kept",
+    "pp": "Kept",
+    "translation": {
+      "Arabic": "احتفظ",
+      "Russian": "держать",
+      "Uzbek": "Saqlamoq"
+    }
+  },
+  {
+    "word": "Kneel",
+    "ps": "Knelt",
+    "pp": "Knelt",
+    "translation": {
+      "Arabic": "ركع",
+      "Russian": "становиться на колени",
+      "Uzbek": "Tiz cho'kib"
+    }
+  },
+  {
+    "word": "Knit",
+    "ps": "Knit",
+    "pp": "Knit",
+    "translation": { "Arabic": "نسج", "Russian": "вязать", "Uzbek": "Trikotaj" }
+  },
+  {
+    "word": "Know",
+    "ps": "Knew",
+    "pp": "Known",
+    "translation": { "Arabic": "علم", "Russian": "знать", "Uzbek": "Biling" }
+  },
+  {
+    "word": "Lay",
+    "ps": "Laid",
+    "pp": "Laid",
+    "translation": { "Arabic": "وضع", "Russian": "лежать", "Uzbek": "Yotish" }
+  },
+  {
+    "word": "Lead",
+    "ps": "Led",
+    "pp": "Led",
+    "translation": {
+      "Arabic": "قاد",
+      "Russian": "приводить",
+      "Uzbek": "Qo'rg'oshin"
+    }
+  },
+  {
+    "word": "Lean",
+    "ps": "Leant",
+    "pp": "Leant",
+    "translation": {
+      "Arabic": "هزيل",
+      "Russian": "опираться",
+      "Uzbek": "Ozg'in"
+    }
+  },
+  {
+    "word": "Leap",
+    "ps": "Leapt",
+    "pp": "Leapt",
+    "translation": { "Arabic": "قفز", "Russian": "прыгать", "Uzbek": "Sakrash" }
+  },
+  {
+    "word": "Learn",
+    "ps": "Learnt/Learned",
+    "pp": "Learnt/Learned",
+    "translation": {
+      "Arabic": "تعلم",
+      "Russian": "учиться",
+      "Uzbek": "O'rganing"
+    }
+  },
+  {
+    "word": "Leave",
+    "ps": "Left",
+    "pp": "Left",
+    "translation": {
+      "Arabic": "ترك",
+      "Russian": "оставлять",
+      "Uzbek": "Ketish"
+    }
+  },
+  {
+    "word": "Lend",
+    "ps": "Lent",
+    "pp": "Lent",
+    "translation": {
+      "Arabic": "أعار",
+      "Russian": "одалживать",
+      "Uzbek": "Qarz berish"
+    }
+  },
+  {
+    "word": "Let",
+    "ps": "Let",
+    "pp": "Let",
+    "translation": { "Arabic": "ودع", "Russian": "позволять", "Uzbek": "Mayli" }
+  },
+  {
+    "word": "Lie",
+    "ps": "Lay",
+    "pp": "Lain",
+    "translation": { "Arabic": "كذب", "Russian": "лежать", "Uzbek": "Yolg'on" }
+  },
+  {
+    "word": "Light",
+    "ps": "Lit",
+    "pp": "Lit",
+    "translation": { "Arabic": "أضاء", "Russian": "светить", "Uzbek": "Nur" }
+  },
+  {
+    "word": "Lose",
+    "ps": "Lost",
+    "pp": "Lost",
+    "translation": {
+      "Arabic": "فقد",
+      "Russian": "терять",
+      "Uzbek": "Yo'qotish"
+    }
+  },
+  {
+    "word": "Make",
+    "ps": "Made",
+    "pp": "Made",
+    "translation": { "Arabic": "جعل", "Russian": "делать", "Uzbek": "Qilish" }
+  },
+  {
+    "word": "Mean",
+    "ps": "Meant",
+    "pp": "Meant",
+    "translation": {
+      "Arabic": "عنى",
+      "Russian": "значить",
+      "Uzbek": "Anglatadi"
+    }
+  },
+  {
+    "word": "Meet",
+    "ps": "Met",
+    "pp": "Met",
+    "translation": {
+      "Arabic": "تقابل",
+      "Russian": "встречаться",
+      "Uzbek": "Tanishish"
+    }
+  },
+  {
+    "word": "Mislay",
+    "ps": "Mislaid",
+    "pp": "Mislaid",
+    "translation": { "Arabic": "أضاع", "Russian": "заложить", "Uzbek": "Xato" }
+  },
+  {
+    "word": "Mislead",
+    "ps": "Misled",
+    "pp": "Misled",
+    "translation": {
+      "Arabic": "تضليل",
+      "Russian": "вводить в заблуждение",
+      "Uzbek": "Adashish"
+    }
+  },
+  {
+    "word": "Misread",
+    "ps": "Misread",
+    "pp": "Misread",
+    "translation": {
+      "Arabic": "أخطأت",
+      "Russian": "неправильно истолковывать",
+      "Uzbek": "Noto'g'ri o'qilgan"
+    }
+  },
+  {
+    "word": "Misspell",
+    "ps": "Misspelled/Misspelt",
+    "pp": "Misspelled/Misspelt",
+    "translation": {
+      "Arabic": "أخطأ في التهجئة والإملاء",
+      "Russian": "делать орфографические ошибки",
+      "Uzbek": "Xato"
+    }
+  },
+  {
+    "word": "Misspend",
+    "ps": "Misspent",
+    "pp": "Misspent",
+    "translation": {
+      "Arabic": "هدر",
+      "Russian": "зря тратить деньги",
+      "Uzbek": "Xatolik"
+    }
+  },
+  {
+    "word": "Mistake",
+    "ps": "Mistook",
+    "pp": "Mistaken",
+    "translation": {
+      "Arabic": "أخطأ",
+      "Russian": "заблуждаться",
+      "Uzbek": "Xato"
+    }
+  },
+  {
+    "word": "Misunderstand",
+    "ps": "Misunderstood",
+    "pp": "Misunderstood",
+    "translation": {
+      "Arabic": "أساء الفهم",
+      "Russian": "неправильно понять",
+      "Uzbek": "noto'g'ri tushunish"
+    }
+  },
+  {
+    "word": "Mow",
+    "ps": "Mowed",
+    "pp": "Mowed/mown",
+    "translation": { "Arabic": "جز", "Russian": "косить", "Uzbek": "O'roq" }
+  },
+  {
+    "word": "Offset",
+    "ps": "Offset",
+    "pp": "Offset",
+    "translation": {
+      "Arabic": "عوض",
+      "Russian": "компенсировать",
+      "Uzbek": "Ofset"
+    }
+  },
+  {
+    "word": "Outbid",
+    "ps": "Outbid",
+    "pp": "Outbid",
+    "translation": {
+      "Arabic": "زايد في الثمن",
+      "Russian": "перекупать",
+      "Uzbek": "Cheklov"
+    }
+  },
+  {
+    "word": "Outdo",
+    "ps": "Outdid",
+    "pp": "Outdone",
+    "translation": {
+      "Arabic": "تغلب",
+      "Russian": "перещеголять",
+      "Uzbek": "Tashqarida"
+    }
+  },
+  {
+    "word": "Outgrow",
+    "ps": "Outgrew",
+    "pp": "Outgrown",
+    "translation": {
+      "Arabic": "تخلص من",
+      "Russian": "перерастать",
+      "Uzbek": "O'sish"
+    }
+  },
+  {
+    "word": "Outrun",
+    "ps": "Outran",
+    "pp": "Outrun",
+    "translation": {
+      "Arabic": "تجاوز",
+      "Russian": "опережать",
+      "Uzbek": "Yugurish"
+    }
+  },
+  {
+    "word": "Outshine",
+    "ps": "Outshone",
+    "pp": "Outshone",
+    "translation": {
+      "Arabic": "كسف",
+      "Russian": "затмевать",
+      "Uzbek": "Yorqin"
+    }
+  },
+  {
+    "word": "Overbear",
+    "ps": "Overbore",
+    "pp": "Overborne",
+    "translation": {
+      "Arabic": "هيمن",
+      "Russian": "превозмогать",
+      "Uzbek": "Chidamli"
+    }
+  },
+  {
+    "word": "Overcome",
+    "ps": "Overcame",
+    "pp": "Overcome",
+    "translation": {
+      "Arabic": "تغلب",
+      "Russian": "преодолеть",
+      "Uzbek": "Yengish"
+    }
+  },
+  {
+    "word": "Overdo",
+    "ps": "Overdid",
+    "pp": "Overdone",
+    "translation": {
+      "Arabic": "تطرف",
+      "Russian": "перестараться",
+      "Uzbek": "Haddan oshib ketish"
+    }
+  },
+  {
+    "word": "Overhang",
+    "ps": "Overhung",
+    "pp": "Overhung",
+    "translation": {
+      "Arabic": "أشرف على",
+      "Russian": "нависать",
+      "Uzbek": "Osilgan"
+    }
+  },
+  {
+    "word": "Overhear",
+    "ps": "Overheard",
+    "pp": "Overheard",
+    "translation": {
+      "Arabic": "سمع مصادفة",
+      "Russian": "подслушивать",
+      "Uzbek": "Eshitish"
+    }
+  },
+  {
+    "word": "Override",
+    "ps": "Overrode",
+    "pp": "Overridden",
+    "translation": {
+      "Arabic": "تجاوز",
+      "Russian": "отменять",
+      "Uzbek": "Bekor qilish"
+    }
+  },
+  {
+    "word": "Overrun",
+    "ps": "Overran",
+    "pp": "Overrun",
+    "translation": {
+      "Arabic": "تجاوز",
+      "Russian": "наводнять",
+      "Uzbek": "Oshib ketish"
+    }
+  },
+  {
+    "word": "Oversee",
+    "ps": "Oversaw",
+    "pp": "Overseen",
+    "translation": {
+      "Arabic": "الإشراف",
+      "Russian": "надзирать",
+      "Uzbek": "Nazorat qilish"
+    }
+  },
+  {
+    "word": "Oversleep",
+    "ps": "Overslept",
+    "pp": "Overslept",
+    "translation": {
+      "Arabic": "إستغرق في النوم",
+      "Russian": "проспать",
+      "Uzbek": "Ortiqcha uyqu"
+    }
+  },
+  {
+    "word": "Overtake",
+    "ps": "Overtook",
+    "pp": "Overtaken",
+    "translation": {
+      "Arabic": "تجاوز",
+      "Russian": "догонять",
+      "Uzbek": "O‘tib ketish"
+    }
+  },
+  {
+    "word": "Overthrow",
+    "ps": "Overthrew",
+    "pp": "Overthrown",
+    "translation": {
+      "Arabic": "قلب",
+      "Russian": "низвергнуть",
+      "Uzbek": "To'ntarish"
+    }
+  },
+  {
+    "word": "Pay",
+    "ps": "Paid",
+    "pp": "Paid",
+    "translation": { "Arabic": "دفع", "Russian": "платить", "Uzbek": "To'lash" }
+  },
+  {
+    "word": "Prove",
+    "ps": "Proved",
+    "pp": "Proved/Proven",
+    "translation": {
+      "Arabic": "ثبت",
+      "Russian": "доказывать",
+      "Uzbek": "isbotlash"
+    }
+  },
+  {
+    "word": "Put",
+    "ps": "Put",
+    "pp": "Put",
+    "translation": { "Arabic": "وضع", "Russian": "ставить", "Uzbek": "Qo'ying" }
+  },
+  {
+    "word": "Read",
+    "ps": "Read",
+    "pp": "Read",
+    "translation": { "Arabic": "قرأ", "Russian": "читать", "Uzbek": "O'qing" }
+  },
+  {
+    "word": "Rebuild",
+    "ps": "Rebuilt",
+    "pp": "Rebuilt",
+    "translation": {
+      "Arabic": "إعادة بناء",
+      "Russian": "перестраивать",
+      "Uzbek": "Qayta qurish"
+    }
+  },
+  {
+    "word": "Recast",
+    "ps": "Recast",
+    "pp": "Recast",
+    "translation": {
+      "Arabic": "أعاد صياغة",
+      "Russian": "переделывать",
+      "Uzbek": "Qayta ko'rsatish"
+    }
+  },
+  {
+    "word": "Redo",
+    "ps": "Redid",
+    "pp": "Redone",
+    "translation": {
+      "Arabic": "فعل ثانية",
+      "Russian": "переделывать",
+      "Uzbek": "Qayta qiling"
+    }
+  },
+  {
+    "word": "Re-lay",
+    "ps": "Re-laid",
+    "pp": "Re-laid",
+    "translation": {
+      "Arabic": "إعادة وضع",
+      "Russian": "Перекладывать",
+      "Uzbek": "Qayta yotqizish"
+    }
+  },
+  {
+    "word": "Remake",
+    "ps": "Remade",
+    "pp": "Remade",
+    "translation": {
+      "Arabic": "صنع ثانية",
+      "Russian": "переделывать",
+      "Uzbek": "Qayta ishlash"
+    }
+  },
+  {
+    "word": "Rend",
+    "ps": "Rent",
+    "pp": "Rent",
+    "translation": { "Arabic": "مزق", "Russian": "раздирать", "Uzbek": "Rend" }
+  },
+  {
+    "word": "Repay",
+    "ps": "Repaid",
+    "pp": "Repaid",
+    "translation": {
+      "Arabic": "رد",
+      "Russian": "погашать",
+      "Uzbek": "Qaytaring"
+    }
+  },
+  {
+    "word": "Rerun",
+    "ps": "Reran",
+    "pp": "Rerun",
+    "translation": {
+      "Arabic": "إعادة تشغيل",
+      "Russian": "перезапускать",
+      "Uzbek": "Qayta ishlash"
+    }
+  },
+  {
+    "word": "Reset",
+    "ps": "Reset",
+    "pp": "Reset",
+    "translation": {
+      "Arabic": "تجبر",
+      "Russian": "переустанавливать",
+      "Uzbek": "Qayta o'rnatish"
+    }
+  },
+  {
+    "word": "Retell",
+    "ps": "Retold",
+    "pp": "Retold",
+    "translation": {
+      "Arabic": "روايتها",
+      "Russian": "пересказать",
+      "Uzbek": "Qayta aytib berish"
+    }
+  },
+  {
+    "word": "Rewind",
+    "ps": "Rewound",
+    "pp": "Rewound",
+    "translation": {
+      "Arabic": "الترجيع",
+      "Russian": "перематывать",
+      "Uzbek": "Orqaga o'tkazish"
+    }
+  },
+  {
+    "word": "Rewrite",
+    "ps": "Rewrote",
+    "pp": "Rewritten",
+    "translation": {
+      "Arabic": "إعادة كتابة",
+      "Russian": "переписывать",
+      "Uzbek": "Qayta yozish"
+    }
+  },
+  {
+    "word": "Rid",
+    "ps": "Rid/Ridded",
+    "pp": "Rid/Ridded",
+    "translation": {
+      "Arabic": "تخليص",
+      "Russian": "избавить",
+      "Uzbek": "Qutqarish"
+    }
+  },
+  {
+    "word": "Ride",
+    "ps": "Rode",
+    "pp": "Ridden",
+    "translation": { "Arabic": "ركب", "Russian": "ездить", "Uzbek": "Haydash" }
+  },
+  {
+    "word": "Ring",
+    "ps": "Rang",
+    "pp": "Rung",
+    "translation": { "Arabic": "طوق", "Russian": "звонить", "Uzbek": "Ring" }
+  },
+  {
+    "word": "Rise",
+    "ps": "Rose",
+    "pp": "Risen",
+    "translation": {
+      "Arabic": "تصاعد",
+      "Russian": "подниматься",
+      "Uzbek": "Ko'tarilish"
+    }
+  },
+  {
+    "word": "Run",
+    "ps": "Ran",
+    "pp": "Run",
+    "translation": {
+      "Arabic": "شغل",
+      "Russian": "работать",
+      "Uzbek": "Yugurish"
+    }
+  },
+  {
+    "word": "Saw",
+    "ps": "Sawed",
+    "pp": "Sawed/Sawn",
+    "translation": {
+      "Arabic": "نشر بمنشار",
+      "Russian": "пилиться",
+      "Uzbek": "Ko'rdim"
+    }
+  },
+  {
+    "word": "Say",
+    "ps": "Said",
+    "pp": "Said",
+    "translation": { "Arabic": "قال", "Russian": "сказать", "Uzbek": "Demoq" }
+  },
+  {
+    "word": "See",
+    "ps": "Saw",
+    "pp": "Seen",
+    "translation": {
+      "Arabic": "شاهد",
+      "Russian": "посмотреть",
+      "Uzbek": "Qarang"
+    }
+  },
+  {
+    "word": "Seek",
+    "ps": "Sought",
+    "pp": "Sought",
+    "translation": { "Arabic": "طلب", "Russian": "искать", "Uzbek": "Izlash" }
+  },
+  {
+    "word": "Sell",
+    "ps": "Sold",
+    "pp": "Sold",
+    "translation": {
+      "Arabic": "باع",
+      "Russian": "продавать",
+      "Uzbek": "Sotish"
+    }
+  },
+  {
+    "word": "Send",
+    "ps": "Sent",
+    "pp": "Sent",
+    "translation": {
+      "Arabic": "إرسال",
+      "Russian": "послать",
+      "Uzbek": "Yuborish"
+    }
+  },
+  {
+    "word": "Set",
+    "ps": "Set",
+    "pp": "Set",
+    "translation": {
+      "Arabic": "وضع",
+      "Russian": "устанавливать",
+      "Uzbek": "Oʻrnatish"
+    }
+  },
+  {
+    "word": "Sew",
+    "ps": "Sewed",
+    "pp": "Sewed/Sewn",
+    "translation": { "Arabic": "خاط", "Russian": "шить", "Uzbek": "Tikmoq" }
+  },
+  {
+    "word": "Shake",
+    "ps": "Shook",
+    "pp": "Shaken",
+    "translation": { "Arabic": "هز", "Russian": "трясти", "Uzbek": "Tebranish" }
+  },
+  {
+    "word": "Shear",
+    "ps": "Shore",
+    "pp": "Shorn",
+    "translation": { "Arabic": "جز", "Russian": "резать", "Uzbek": "Qirqim" }
+  },
+  {
+    "word": "Shed",
+    "ps": "Shed",
+    "pp": "Shed",
+    "translation": { "Arabic": "سال", "Russian": "проливать", "Uzbek": "Shed" }
+  },
+  {
+    "word": "Shine",
+    "ps": "Shone",
+    "pp": "Shone",
+    "translation": { "Arabic": "تألق", "Russian": "светить", "Uzbek": "Yorqin" }
+  },
+  {
+    "word": "Shoe",
+    "ps": "Shod",
+    "pp": "Shod",
+    "translation": {
+      "Arabic": "انتعل",
+      "Russian": "обувать",
+      "Uzbek": "Poyafzal"
+    }
+  },
+  {
+    "word": "Shoot",
+    "ps": "Shot",
+    "pp": "Shot",
+    "translation": {
+      "Arabic": "أطلق النار",
+      "Russian": "стрелять",
+      "Uzbek": "Otish"
+    }
+  },
+  {
+    "word": "Show",
+    "ps": "Showed",
+    "pp": "Shown",
+    "translation": {
+      "Arabic": "عرض",
+      "Russian": "показывать",
+      "Uzbek": "Ko'rsatish"
+    }
+  },
+  {
+    "word": "Shrink",
+    "ps": "Shrank",
+    "pp": "Shrunk",
+    "translation": {
+      "Arabic": "تقلص",
+      "Russian": "сжиматься",
+      "Uzbek": "Qisqartirish"
+    }
+  },
+  {
+    "word": "Shut",
+    "ps": "Shut",
+    "pp": "Shut",
+    "translation": { "Arabic": "غلق", "Russian": "закрывать", "Uzbek": "Yop" }
+  },
+  {
+    "word": "Sing",
+    "ps": "Sang",
+    "pp": "Sung",
+    "translation": {
+      "Arabic": "غنى",
+      "Russian": "петь",
+      "Uzbek": "Qo'shiq ayt"
+    }
+  },
+  {
+    "word": "Sink",
+    "ps": "Sank",
+    "pp": "Sunk",
+    "translation": { "Arabic": "غرق", "Russian": "утонуть", "Uzbek": "Lavabo" }
+  },
+  {
+    "word": "Sit",
+    "ps": "Sat",
+    "pp": "Sat",
+    "translation": { "Arabic": "جلس", "Russian": "сидеть", "Uzbek": "O'tir" }
+  },
+  {
+    "word": "Slay",
+    "ps": "Slew",
+    "pp": "Slain",
+    "translation": {
+      "Arabic": "ذبح",
+      "Russian": "убивать",
+      "Uzbek": "O'ldirmoq"
+    }
+  },
+  {
+    "word": "Sleep",
+    "ps": "Slept",
+    "pp": "Slept",
+    "translation": { "Arabic": "نام", "Russian": "спать", "Uzbek": "Uxlash" }
+  },
+  {
+    "word": "Slide",
+    "ps": "Slid",
+    "pp": "Slid",
+    "translation": {
+      "Arabic": "انزلق",
+      "Russian": "скользить",
+      "Uzbek": "Slayd"
+    }
+  },
+  {
+    "word": "Sling",
+    "ps": "Slang",
+    "pp": "Slung",
+    "translation": { "Arabic": "رمى", "Russian": "стропить", "Uzbek": "Sling" }
+  },
+  {
+    "word": "Slink",
+    "ps": "Slunk",
+    "pp": "Slunk",
+    "translation": {
+      "Arabic": "أنسل خلسة",
+      "Russian": "красться",
+      "Uzbek": "Slink"
+    }
+  },
+  {
+    "word": "Slit",
+    "ps": "Slit",
+    "pp": "Slit",
+    "translation": { "Arabic": "شق", "Russian": "расщеплять", "Uzbek": "Yoriq" }
+  },
+  {
+    "word": "Smell",
+    "ps": "Smelt",
+    "pp": "Smelt",
+    "translation": { "Arabic": "شم", "Russian": "пахнуть", "Uzbek": "Hid" }
+  },
+  {
+    "word": "Smite",
+    "ps": "Smote",
+    "pp": "Smitten",
+    "translation": { "Arabic": "اضرب", "Russian": "поражать", "Uzbek": "Uring" }
+  },
+  {
+    "word": "Sneak",
+    "ps": "Sneaked/Snuck",
+    "pp": "Sneaked/Snuck",
+    "translation": {
+      "Arabic": "تسلل",
+      "Russian": "стащить",
+      "Uzbek": "Yashirin"
+    }
+  },
+  {
+    "word": "Sow",
+    "ps": "Sowed",
+    "pp": "Sowed/Sown",
+    "translation": { "Arabic": "زرع", "Russian": "сеять", "Uzbek": "Ekish" }
+  },
+  {
+    "word": "Speak",
+    "ps": "Spoke",
+    "pp": "Spoken",
+    "translation": {
+      "Arabic": "عجل",
+      "Russian": "говорить",
+      "Uzbek": "Gapiring"
+    }
+  },
+  {
+    "word": "Speed",
+    "ps": "Sped",
+    "pp": "Sped",
+    "translation": {
+      "Arabic": "سرعة",
+      "Russian": "скорость",
+      "Uzbek": "Tezlik"
+    }
+  },
+  {
+    "word": "Spell",
+    "ps": "Spelt",
+    "pp": "Spelt",
+    "translation": { "Arabic": "تهجى", "Russian": "означать", "Uzbek": "Imlo" }
+  },
+  {
+    "word": "Spend",
+    "ps": "Spent",
+    "pp": "Spent",
+    "translation": {
+      "Arabic": "أنفق",
+      "Russian": "тратить",
+      "Uzbek": "Sarflash"
+    }
+  },
+  {
+    "word": "Spill",
+    "ps": "Spilt/Spilled",
+    "pp": "Spilt/Spilled",
+    "translation": {
+      "Arabic": "سفك",
+      "Russian": "проливать",
+      "Uzbek": "To'kish"
+    }
+  },
+  {
+    "word": "Spin",
+    "ps": "Spun",
+    "pp": "Spun",
+    "translation": { "Arabic": "غزل", "Russian": "крутить", "Uzbek": "Spin" }
+  },
+  {
+    "word": "Spit",
+    "ps": "Spat",
+    "pp": "Spat",
+    "translation": { "Arabic": "بصق", "Russian": "плевать", "Uzbek": "Tupur" }
+  },
+  {
+    "word": "Split",
+    "ps": "Split",
+    "pp": "Split",
+    "translation": {
+      "Arabic": "انقسم",
+      "Russian": "расщеплять",
+      "Uzbek": "Split"
+    }
+  },
+  {
+    "word": "Spoil",
+    "ps": "Spoilt/Spoiled",
+    "pp": "Spoilt/Spoiled",
+    "translation": {
+      "Arabic": "تلف",
+      "Russian": "портиться",
+      "Uzbek": "Buzmoq"
+    }
+  },
+  {
+    "word": "Spread",
+    "ps": "Spread",
+    "pp": "Spread",
+    "translation": {
+      "Arabic": "نشر",
+      "Russian": "распространять",
+      "Uzbek": "Tarqalish"
+    }
+  },
+  {
+    "word": "Spring",
+    "ps": "Sprang",
+    "pp": "Sprung",
+    "translation": { "Arabic": "وثب", "Russian": "пружинить", "Uzbek": "Bahor" }
+  },
+  {
+    "word": "Stand",
+    "ps": "Stood",
+    "pp": "Stood",
+    "translation": { "Arabic": "تحمل", "Russian": "стоять", "Uzbek": "Turing" }
+  },
+  {
+    "word": "Steal",
+    "ps": "Stole",
+    "pp": "Stolen",
+    "translation": {
+      "Arabic": "سرق",
+      "Russian": "воровать",
+      "Uzbek": "O'g'irlash"
+    }
+  },
+  {
+    "word": "Stick",
+    "ps": "Stuck",
+    "pp": "Stuck",
+    "translation": {
+      "Arabic": "لصق",
+      "Russian": "придерживаться",
+      "Uzbek": "Tayoq"
+    }
+  },
+  {
+    "word": "Sting",
+    "ps": "Stung",
+    "pp": "Stung",
+    "translation": { "Arabic": "لسع", "Russian": "жалить", "Uzbek": "Sting" }
+  },
+  {
+    "word": "Stink",
+    "ps": "Stank/Stunk",
+    "pp": "Stunk",
+    "translation": { "Arabic": "نتن", "Russian": "вонять", "Uzbek": "Hidiy" }
+  },
+  {
+    "word": "Strew",
+    "ps": "Strewed",
+    "pp": "Strewed/Strewn",
+    "translation": { "Arabic": "نثر", "Russian": "посыпать", "Uzbek": "Strew" }
+  },
+  {
+    "word": "Stride",
+    "ps": "Strode",
+    "pp": "Stridden",
+    "translation": {
+      "Arabic": "خطا خطوة واسعة",
+      "Russian": "шагать",
+      "Uzbek": "Qadam"
+    }
+  },
+  {
+    "word": "Strike",
+    "ps": "Struck",
+    "pp": "Struck",
+    "translation": {
+      "Arabic": "ضرب",
+      "Russian": "бить",
+      "Uzbek": "Ish tashlash"
+    }
+  },
+  {
+    "word": "String",
+    "ps": "Strung",
+    "pp": "Strung",
+    "translation": {
+      "Arabic": "زخرف",
+      "Russian": "нанизывать",
+      "Uzbek": "String"
+    }
+  },
+  {
+    "word": "Strive",
+    "ps": "Strove",
+    "pp": "Striven",
+    "translation": {
+      "Arabic": "سعى",
+      "Russian": "стараться",
+      "Uzbek": "Intilish"
+    }
+  },
+  {
+    "word": "Sublet",
+    "ps": "Sublet",
+    "pp": "Sublet",
+    "translation": {
+      "Arabic": "أجر من الباطن",
+      "Russian": "передавать в субаренду",
+      "Uzbek": "Sublet"
+    }
+  },
+  {
+    "word": "Swear",
+    "ps": "Swore",
+    "pp": "Sworn",
+    "translation": {
+      "Arabic": "أقسم",
+      "Russian": "ругаться",
+      "Uzbek": "Qasam iching"
+    }
+  },
+  {
+    "word": "Sweat",
+    "ps": "Sweat",
+    "pp": "Sweat",
+    "translation": { "Arabic": "عرق", "Russian": "потеть", "Uzbek": "Ter" }
+  },
+  {
+    "word": "Sweep",
+    "ps": "Swept",
+    "pp": "Swept",
+    "translation": {
+      "Arabic": "اكتساح",
+      "Russian": "развертки",
+      "Uzbek": "Supurish"
+    }
+  },
+  {
+    "word": "Swell",
+    "ps": "Swelled",
+    "pp": "Swollen",
+    "translation": {
+      "Arabic": "تورم",
+      "Russian": "набухать",
+      "Uzbek": "Shishish"
+    }
+  },
+  {
+    "word": "Swim",
+    "ps": "Swam",
+    "pp": "Swum",
+    "translation": { "Arabic": "سبح", "Russian": "плавать", "Uzbek": "Suzish" }
+  },
+  {
+    "word": "Swing",
+    "ps": "Swung",
+    "pp": "Swung",
+    "translation": {
+      "Arabic": "تأرجح",
+      "Russian": "качать",
+      "Uzbek": "Belanchak"
+    }
+  },
+  {
+    "word": "Take",
+    "ps": "Took",
+    "pp": "Taken",
+    "translation": { "Arabic": "أخذ", "Russian": "принимать", "Uzbek": "Oling" }
+  },
+  {
+    "word": "Teach",
+    "ps": "Taught",
+    "pp": "Taught",
+    "translation": { "Arabic": "علم", "Russian": "учить", "Uzbek": "O'rgating" }
+  },
+  {
+    "word": "Tear",
+    "ps": "Tore",
+    "pp": "Torn",
+    "translation": { "Arabic": "قطع", "Russian": "рвать", "Uzbek": "Yirtmoq" }
+  },
+  {
+    "word": "Tell",
+    "ps": "Told",
+    "pp": "Told",
+    "translation": { "Arabic": "اقول", "Russian": "сказать", "Uzbek": "Ayting" }
+  },
+  {
+    "word": "Think",
+    "ps": "Thought",
+    "pp": "Thought",
+    "translation": {
+      "Arabic": "اعتقد",
+      "Russian": "думать",
+      "Uzbek": "O'ylab ko'ring"
+    }
+  },
+  {
+    "word": "Thread",
+    "ps": "Trod",
+    "pp": "Trodden",
+    "translation": { "Arabic": "لولب", "Russian": "нить", "Uzbek": "Ip" }
+  },
+  {
+    "word": "Thrive",
+    "ps": "Throve/Thrived",
+    "pp": "Thrived/Thriven",
+    "translation": {
+      "Arabic": "ازدهر",
+      "Russian": "процветать",
+      "Uzbek": "Rivojlanish"
+    }
+  },
+  {
+    "word": "Throw",
+    "ps": "Threw",
+    "pp": "Thrown",
+    "translation": { "Arabic": "إلقاء", "Russian": "бросать", "Uzbek": "Otish" }
+  },
+  {
+    "word": "Thrust",
+    "ps": "Thrust",
+    "pp": "Thrust",
+    "translation": {
+      "Arabic": "طعن",
+      "Russian": "засовывать",
+      "Uzbek": "Bosish"
+    }
+  },
+  {
+    "word": "Tread",
+    "ps": "Trod",
+    "pp": "Trodden/Trod",
+    "translation": {
+      "Arabic": "داس",
+      "Russian": "ступать",
+      "Uzbek": "Bog'lanish"
+    }
+  },
+  {
+    "word": "Undercut",
+    "ps": "Undercut",
+    "pp": "Undercut",
+    "translation": {
+      "Arabic": "عرض بسعر أقل",
+      "Russian": "подрезать",
+      "Uzbek": "Pastki qism"
+    }
+  },
+  {
+    "word": "Undergo",
+    "ps": "Underwent",
+    "pp": "Undergone",
+    "translation": {
+      "Arabic": "خضع",
+      "Russian": "претерпевать",
+      "Uzbek": "Duchor"
+    }
+  },
+  {
+    "word": "Understand",
+    "ps": "Understood",
+    "pp": "Understood",
+    "translation": {
+      "Arabic": "فهم",
+      "Russian": "понимать",
+      "Uzbek": "Tushunmoq"
+    }
+  },
+  {
+    "word": "Undertake",
+    "ps": "Undertook",
+    "pp": "Undertaken",
+    "translation": {
+      "Arabic": "تعهد",
+      "Russian": "предпринимать",
+      "Uzbek": "O'z zimmasiga olish"
+    }
+  },
+  {
+    "word": "Underwrite",
+    "ps": "Underwrote",
+    "pp": "Underwritten",
+    "translation": {
+      "Arabic": "وافق على",
+      "Russian": "гарантировать",
+      "Uzbek": "Underwrite"
+    }
+  },
+  {
+    "word": "Undo",
+    "ps": "Undid",
+    "pp": "Undone",
+    "translation": {
+      "Arabic": "فك",
+      "Russian": "аннулировать",
+      "Uzbek": "Bekor qilish"
+    }
+  },
+  {
+    "word": "Unwind",
+    "ps": "Unwound",
+    "pp": "Unwound",
+    "translation": {
+      "Arabic": "فك",
+      "Russian": "отдохнуть",
+      "Uzbek": "Dam oling"
+    }
+  },
+  {
+    "word": "Uphold",
+    "ps": "Upheld",
+    "pp": "Upheld",
+    "translation": {
+      "Arabic": "دعم",
+      "Russian": "поддерживать",
+      "Uzbek": "Qo'llab-quvvatlang"
+    }
+  },
+  {
+    "word": "Upset",
+    "ps": "Upset",
+    "pp": "Upset",
+    "translation": {
+      "Arabic": "قلب",
+      "Russian": "расстраивать",
+      "Uzbek": "Xafa"
+    }
+  },
+  {
+    "word": "Wake",
+    "ps": "Woke",
+    "pp": "Woken",
+    "translation": {
+      "Arabic": "استيقظ",
+      "Russian": "будить",
+      "Uzbek": "Uyg'on"
+    }
+  },
+  {
+    "word": "Waylay",
+    "ps": "Waylaid",
+    "pp": "Waylaid",
+    "translation": {
+      "Arabic": "قطع الطريق",
+      "Russian": "подстерегать",
+      "Uzbek": "Waylay"
+    }
+  },
+  {
+    "word": "Wear",
+    "ps": "Wore",
+    "pp": "Worn",
+    "translation": { "Arabic": "لبس", "Russian": "носить", "Uzbek": "Kiyish" }
+  },
+  {
+    "word": "Weave",
+    "ps": "Wove",
+    "pp": "Woven",
+    "translation": { "Arabic": "نسج", "Russian": "ткать", "Uzbek": "To'qmoq" }
+  },
+  {
+    "word": "Wed",
+    "ps": "Wedded/wed",
+    "pp": "Wedded/wed",
+    "translation": {
+      "Arabic": "تزوج",
+      "Russian": "женить",
+      "Uzbek": "Chorshanba"
+    }
+  },
+  {
+    "word": "Weep",
+    "ps": "Wept",
+    "pp": "Wept",
+    "translation": { "Arabic": "بكى", "Russian": "плакать", "Uzbek": "Yig'la" }
+  },
+  {
+    "word": "Wet",
+    "ps": "Wet/Wetted",
+    "pp": "Wet/Wetted",
+    "translation": { "Arabic": "رطب", "Russian": "мочить", "Uzbek": "nam" }
+  },
+  {
+    "word": "Win",
+    "ps": "Won",
+    "pp": "Won",
+    "translation": {
+      "Arabic": "كسب",
+      "Russian": "выиграть",
+      "Uzbek": "G'alaba qozon"
+    }
+  },
+  {
+    "word": "Wind",
+    "ps": "Wound",
+    "pp": "Wound",
+    "translation": {
+      "Arabic": "رياح",
+      "Russian": "заводить",
+      "Uzbek": "Shamol"
+    }
+  },
+  {
+    "word": "Withdraw",
+    "ps": "Withdrew",
+    "pp": "Withdrawn",
+    "translation": {
+      "Arabic": "سحب",
+      "Russian": "изымать",
+      "Uzbek": "Olib tashlash"
+    }
+  },
+  {
+    "word": "Withhold",
+    "ps": "Withheld",
+    "pp": "Withheld",
+    "translation": {
+      "Arabic": "منع",
+      "Russian": "удерживать",
+      "Uzbek": "Tutib qo'ying"
+    }
+  },
+  {
+    "word": "Withstand",
+    "ps": "Withstood",
+    "pp": "Withstood",
+    "translation": {
+      "Arabic": "تحمل",
+      "Russian": "выдерживать",
+      "Uzbek": "Bardosh bering"
+    }
+  },
+  {
+    "word": "Wring",
+    "ps": "Wrung",
+    "pp": "Wrung",
+    "translation": { "Arabic": "عصر", "Russian": "выжимать", "Uzbek": "Siqish" }
+  },
+  {
+    "word": "Write",
+    "ps": "Wrote",
+    "pp": "Written",
+    "translation": {
+      "Arabic": "الكتابة",
+      "Russian": "запись",
+      "Uzbek": "Yozing"
+    }
+  }
+]
