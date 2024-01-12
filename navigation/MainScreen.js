@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 //screens
 import List from './screens/list';
+import Test from "./screens/test";
 
 const Tab = createBottomTabNavigator();
 
@@ -29,7 +30,7 @@ const MainScreen = () => {
       </Tab.Screen>
       <Tab.Screen
         name="Test"
-        component={List}
+        component={Test}
         options={{
           tabBarLabel: "Test",
           tabBarIcon: ({ color, size }) => (

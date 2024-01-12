@@ -6,12 +6,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { mainStyle } from "../../assets/styles/mainStyle";
-import { FontAwesome } from "react-native-vector-icons";
-import * as MediaLibrary from 'expo-media-library';
 import { Audio } from 'expo-av';
 
 import data from "../../data/verbs/irregular_verbs_min.json";
-import full_data from "../../data/verbs/irregular_verbs.json";
 import audio_paths from '../../data/imgreq';
 
 function List() {
