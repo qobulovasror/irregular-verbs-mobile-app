@@ -49,6 +49,7 @@ function TestRender({navigation, seleVerb, setSeleVerb}) {
         verbs.push({word: item.word, ps: item.ps, pp: item.pp})
       }
     })
+    // console.log(verbs);
     setCurrVerbs(verbs);
   }, [])
   return (

@@ -10,7 +10,7 @@ import { mainStyle } from "../../assets/styles/mainStyle";
 import { Audio } from "expo-av";
 
 import data from "../../data/verbs/irregular_verbs_min.json";
-import audio_paths from "../../data/imgreq";
+import audio_paths from "../../data/imgreq";// [ { name: "ate", url: require("./audios/ate.mp3") }, ...]
 
 class ListItem extends PureComponent {
   render() {
@@ -44,25 +44,34 @@ class ListItem extends PureComponent {
 }
 
 function List() {
-  const playAutio = async (name = "ate") => {
+  const playAutio = async (name) => {
     try {
-      let name2 = "";
-      if (name.includes("/")) {
-        name2 = name.toLowerCase().split("/")[2];
-      }
+      // let name2 = "";
+      // if (name.includes("/")) {
+      //   name2 = name.toLowerCase().split("/")[2];
+      // }
       name = name.toLowerCase().split("/")[0];
-      audio_paths.forEach(async (elem) => {
-        if (elem.name == name) {
+
+      for (const elem of audio_paths) {
+        if (elem.name === name) {
           const { sound } = await Audio.Sound.createAsync(elem.url);
           await sound.playAsync();
           return;
         }
+      }
+
+      // audio_paths.forEach(async (elem) => {
+      //   if (elem.name == name) {
+      //     const { sound } = await Audio.Sound.createAsync(elem.url);
+      //     await sound.playAsync();
+      //     return;
+      //   }
         // if(name2 && elem.name ==name2){
         //   const { sound } = await Audio.Sound.createAsync(elem.url);
         //   await sound.playAsync();
         //   return;
         // }
-      });
+      // });
     } catch (error) {
       console.log(error);
     }

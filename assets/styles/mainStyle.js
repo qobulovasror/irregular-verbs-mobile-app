@@ -103,7 +103,6 @@ const textStyle = StyleSheet.create({
     // height: 45,
   },
   items: {
-    width: "25%",
     margin: "auto",
     display: "flex",
     flexDirection: "row",
@@ -129,6 +128,11 @@ const textStyle = StyleSheet.create({
     borderRadius: 10,
     paddingStart: 15,
   },
+  checkBtnText: { 
+    marginStart: 15, 
+    fontSize: 20, 
+    color: "#00f" 
+  }
 });
 
 const testHandlerStyle = StyleSheet.create({
