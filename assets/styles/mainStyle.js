@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const mainStyle = StyleSheet.create({
   conatainer: {
     padding: 10,
-    marginBottom: 60,
+    marginBottom: 25,
   },
   row: {
     display: "flex",
@@ -127,6 +127,8 @@ const textStyle = StyleSheet.create({
     padding: 5,
     borderRadius: 10,
     paddingStart: 15,
+    borderColor: "#00f",
+    borderWidth: 0.8
   },
   checkBtnText: { 
     marginStart: 15, 
@@ -137,8 +139,9 @@ const textStyle = StyleSheet.create({
 
 const testHandlerStyle = StyleSheet.create({
   conatainer: {
-    padding: 10,
-    marginBottom: 60,
+    flex: 1,
+    justifyContent: 'center',
+    alignContent: 'center'
   },
   row: {
     display: "flex",
@@ -159,11 +162,14 @@ const testHandlerStyle = StyleSheet.create({
     textAlign: "center",
   },
   input: {
-    width: '95%',
     padding: 7,
     borderRadius: 7,
     borderWidth: 0.5,
     borderColor: "#000",
+    marginVertical: 5,
+    marginHorizontal: 10,
+    textAlign: 'center',
+    fontSize: 20
   },
   listHeader: {
     fontSize: 17,
@@ -188,19 +194,36 @@ const testHandlerStyle = StyleSheet.create({
     textAlign: "center",
     fontSize: 16,
   },
-  startBtn: {
-    position: "absolute",
-    bottom: "5%",
-    right: "5%",
-    backgroundColor: "#00f",
+  checkBtn: {
+    backgroundColor: "#41C68EFF",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 15,
+    padding: 10, marginTop: 5
+  },
+  drectBtn: {
+    width: '30%',
+   backgroundColor: "#F9B74Dff",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 15, 
+    borderRadius: 5,
+    marginTop: 10,
+    marginHorizontal: 3,
+  },
+  card: {
+    width: '80%',
+    marginHorizontal: '10%',
+    backgroundColor: "#fff",
+    borderRadius: 10,
     padding: 15,
-    borderRadius: 10,
   },
-  selectAllBtn: {
-    padding: 5,
-    borderRadius: 10,
-    paddingStart: 15,
-  },
+  showResult: {
+    position: 'absolute', 
+    top: '0%',
+    left: 0,
+    margin: '10%'
+  }
 });
 
 export { mainStyle, textStyle, testHandlerStyle };

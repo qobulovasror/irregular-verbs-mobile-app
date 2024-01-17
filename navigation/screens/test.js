@@ -6,14 +6,15 @@ import {
 } from "react-native";
 import { textStyle } from "../../assets/styles/mainStyle";
 import Checkbox from "expo-checkbox";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { AntDesign, MaterialCommunityIcons } from "@expo/vector-icons";
 
-const data = require("../../data/verbs/irregular_verbs_min.json");
+// const data = require("../../data/verbs/irregular_verbs_min.json");
+import {verbs_min_data as data} from '../../data/imgreq'
 
 
 function Test({ navigation, setSeleVerb }) {
-  const [selectedItems, setSelectedItems] = useState([]);
+  const [selectedItems, setSelectedItems] = useState(Array.from(Array(110).keys()));
   const checkAllHandler = (percentage) => { 
     setSelectedItems(Array.from(Array(Math.round((data.length*percentage)/100)).keys()))
   };
@@ -21,31 +22,33 @@ function Test({ navigation, setSeleVerb }) {
     setSeleVerb(selectedItems);
     navigation.navigate("Test");
   };
+  useEffect(()=>{
+    setSeleVerb([])
+  }, [])
   return (
     <View style={textStyle.conatainer}>
       <View style={[textStyle.row, textStyle.around, { marginTop: 10 }]}>
-        <Text style={textStyle.listHeader}>Select</Text>
-        <Text style={textStyle.listHeader}>Infinitive</Text>
-        <Text style={textStyle.listHeader}>Past simple</Text>
-        <Text style={textStyle.listHeader}>Past participle</Text>
+        <Text style={[textStyle.listHeader, {width: '5%'}]}>#</Text>
+        <Text style={textStyle.listHeader}>Verb Name</Text>
+        <Text style={textStyle.listHeader}>Checking</Text>
       </View>
       <View style={[textStyle.row, textStyle.around]}>
         <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row]}
+          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
           onPress={()=>checkAllHandler(100)}
         >
           <AntDesign name="checkcircleo" size={25} color="#00f" />
           <Text style={textStyle.checkBtnText}>All</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row]}
+          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
           onPress={()=>checkAllHandler(50)}
         >
           <AntDesign name="checkcircleo" size={25} color="#00f" />
           <Text style={textStyle.checkBtnText}>Half</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row]}
+          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
           onPress={()=>checkAllHandler(25)}
         >
           <AntDesign name="checkcircleo" size={25} color="#00f" />
