@@ -20,6 +20,7 @@ const audio_paths = [
   { name: "blown", url: require("./audios/blown.mp3") },
   { name: "bought", url: require("./audios/bought.mp3") },
   { name: "bring", url: require("./audios/bring.mp3") },
+  { name: "break", url: require("./audios/break.mp3") },
   { name: "broke", url: require("./audios/broke.mp3") },
   { name: "broken", url: require("./audios/broken.mp3") },
   { name: "brought", url: require("./audios/brought.mp3") },

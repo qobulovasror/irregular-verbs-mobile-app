@@ -169,7 +169,8 @@ const testHandlerStyle = StyleSheet.create({
     marginVertical: 5,
     marginHorizontal: 10,
     textAlign: 'center',
-    fontSize: 20
+    fontSize: 20,
+    marginBottom: 15
   },
   listHeader: {
     fontSize: 17,

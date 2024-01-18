@@ -10,7 +10,7 @@ import { mainStyle } from "../../assets/styles/mainStyle";
 import { Audio } from "expo-av";
 
 import data from "../../data/verbs/irregular_verbs_min.json";
-import audio_paths from "../../data/imgreq";// [ { name: "ate", url: require("./audios/ate.mp3") }, ...]
+import {audio_paths} from "../../data/imgreq";
 
 class ListItem extends PureComponent {
   render() {
@@ -46,8 +46,8 @@ class ListItem extends PureComponent {
 function List() {
   const playAutio = async (name) => {
     try {
+      console.log(name);
       name = name.toLowerCase().split("/")[0];
-
       for (const elem of audio_paths) {
         if (elem.name === name) {
           const { sound } = await Audio.Sound.createAsync(elem.url);
