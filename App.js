@@ -1,10 +1,10 @@
-import MySnack from "./navigation/MainScreen";
+import MainScreen from "./navigation/MainScreen";
 import { NavigationContainer } from "@react-navigation/native";
 
 export default function App() {
   return (
     <NavigationContainer>
-      <MySnack />
+      <MainScreen />
     </NavigationContainer>
   );
 }

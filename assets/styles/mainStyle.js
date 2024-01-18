@@ -164,13 +164,12 @@ const testHandlerStyle = StyleSheet.create({
   input: {
     padding: 7,
     borderRadius: 7,
-    borderWidth: 0.5,
+    borderWidth: 1,
     borderColor: "#000",
     marginVertical: 5,
     marginHorizontal: 10,
     textAlign: 'center',
     fontSize: 20,
-    marginBottom: 15
   },
   listHeader: {
     fontSize: 17,
@@ -217,7 +216,7 @@ const testHandlerStyle = StyleSheet.create({
     marginHorizontal: '10%',
     backgroundColor: "#fff",
     borderRadius: 10,
-    padding: 15,
+    padding: 10,
   },
   showResult: {
     position: 'absolute', 

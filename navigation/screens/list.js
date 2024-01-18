@@ -3,7 +3,6 @@ import {
   View,
   Text,
   FlatList,
-  TextInput,
   TouchableOpacity,
 } from "react-native";
 import { mainStyle } from "../../assets/styles/mainStyle";

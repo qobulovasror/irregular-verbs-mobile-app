@@ -1,128 +1,126 @@
 import {
   View,
   Text,
-  FlatList,
+  TextInput,
   TouchableOpacity,
 } from "react-native";
-import { textStyle } from "../../assets/styles/mainStyle";
-import Checkbox from "expo-checkbox";
-import { useState, useMemo, useEffect } from "react";
-import { AntDesign, MaterialCommunityIcons } from "@expo/vector-icons";
+import { testHandlerStyle } from "../../assets/styles/mainStyle";
+import { useState } from "react";
+import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 
-// const data = require("../../data/verbs/irregular_verbs_min.json");
-import {verbs_min_data as data} from '../../data/imgreq'
+import { verb_with_tree as data } from "../../data/imgreq";
 
+function Test() {
+  const [results, setResult] = useState({
+    current: 0,
+    wrong: 0,
+    currentWord: 0,
+  });
+  const [resValues, setResValues] = useState({
+    ps: "",
+    pp: ""
+  })
+  const [currTestState, setCurrTestState] = useState({
+    ps: -1,
+    pp: -1
+  })
+  const [check, setCheck] = useState(false)
 
-function Test({ navigation, setSeleVerb }) {
-  const [selectedItems, setSelectedItems] = useState(Array.from(Array(110).keys()));
-  const checkAllHandler = (percentage) => { 
-    setSelectedItems(Array.from(Array(Math.round((data.length*percentage)/100)).keys()))
+  const checkResult = () => {
+    setCheck(true)
+    let isCurrentPS = (resValues.ps.trim().toLowerCase()===data[results.currentWord].ps.split("/")[0].trim().toLowerCase())? 1: 0
+    let isCurrentPP = (resValues.pp.trim().toLowerCase()===data[results.currentWord].pp.split("/")[0].trim().toLowerCase())? 1: 0
+    setCurrTestState({
+      ps: isCurrentPS,
+      pp: isCurrentPP
+    })
+
+    console.log(isCurrentPS, isCurrentPP, results.wrong + (isCurrentPP==0)? 1: 0 + (isCurrentPS==0)? 1: 0);
+    setResult({
+      current: (results.current + isCurrentPP + isCurrentPS),
+      wrong: results.wrong + ((isCurrentPP==0)? 1: 0) + ((isCurrentPS==0)? 1: 0),
+      currentWord: results.currentWord
+    })
   };
-  const startHandler = () => {
-    setSeleVerb(selectedItems);
-    navigation.navigate("Test");
+  const nextWord = () => {
+    setCheck(false)
+    setCurrTestState({ ps: -1, pp: -1 })
+    setResult({
+      ...results,
+      currentWord: results.currentWord+1,
+    })
+    setResValues({
+      ps: "",
+      pp: ""
+    })
   };
-  useEffect(()=>{
-    setSeleVerb([])
-  }, [])
   return (
-    <View style={textStyle.conatainer}>
-      <View style={[textStyle.row, textStyle.around, { marginTop: 10 }]}>
-        <Text style={[textStyle.listHeader, {width: '5%'}]}>#</Text>
-        <Text style={textStyle.listHeader}>Verb Name</Text>
-        <Text style={textStyle.listHeader}>Checking</Text>
-      </View>
-      <View style={[textStyle.row, textStyle.around]}>
-        <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
-          onPress={()=>checkAllHandler(100)}
-        >
-          <AntDesign name="checkcircleo" size={25} color="#00f" />
-          <Text style={textStyle.checkBtnText}>All</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
-          onPress={()=>checkAllHandler(50)}
-        >
-          <AntDesign name="checkcircleo" size={25} color="#00f" />
-          <Text style={textStyle.checkBtnText}>Half</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[textStyle.selectAllBtn, textStyle.row, textStyle.around]}
-          onPress={()=>checkAllHandler(25)}
-        >
-          <AntDesign name="checkcircleo" size={25} color="#00f" />
-          <Text style={textStyle.checkBtnText}>Quarter</Text>
-        </TouchableOpacity>
-      </View>
-      <ListView 
-        selectedItems={selectedItems} 
-        setSelectedItems={setSelectedItems} 
-      />
-      <TouchableOpacity
+    <View style={testHandlerStyle.conatainer}>
+      <View
         style={[
-          textStyle.startBtn,
-          {
-            backgroundColor: selectedItems.length==0? "#99c": "#00f"
-          },
+          testHandlerStyle.row,
+          testHandlerStyle.between,
+          testHandlerStyle.showResult,
         ]}
-        disabled={selectedItems.length==0}
-        onPress={startHandler}
       >
-        <MaterialCommunityIcons name="run-fast" size={27} color="#fff" />
-      </TouchableOpacity>
+        <View style={[testHandlerStyle.drectBtn, testHandlerStyle.column]}>
+          <MaterialIcons name="close" size={24} color="black" />
+          <Text style={{ textAlign: "center" }}>{results.wrong}</Text>
+        </View>
+        <View style={testHandlerStyle.drectBtn}>
+          <Text style={{ fontSize: 18 }}>{results.currentWord+"/"+data.length}</Text>
+        </View>
+        <View style={[testHandlerStyle.drectBtn, testHandlerStyle.column]}>
+          <AntDesign name="check" size={24} color="black" />
+          <Text style={{ textAlign: "center" }}>{results.current}</Text>
+        </View>
+      </View>
+      <View style={testHandlerStyle.card}>
+        <View style={[testHandlerStyle.column, {marginVertical: 15}]}>
+          <View
+            style={[
+              testHandlerStyle.row,
+              { justifyContent: "center", marginVertical: 10 },
+            ]}
+          >
+            <Text style={{ fontSize: 18 }}>Verb: </Text>
+            <Text style={{ fontSize: 18, fontWeight: "600" }}>{data[results.currentWord].word} </Text>
+          </View>
+          <TextInput 
+            style={[testHandlerStyle.input, {borderColor: (currTestState.ps==1)? "#0f0": (currTestState.ps==0)? "#f00": "#000"}]} 
+            placeholder="Past simple" 
+            value={resValues.ps}
+            autoCapitalize="none"
+            onChangeText={(val=>setResValues({...resValues, ps: val}))}
+            />
+            {
+              currTestState.ps==0 &&
+              <Text style={{color: "#CEAC13FF", fontSize: 20, textAlign: 'center'}}>{data[results.currentWord].ps.toLowerCase()}</Text>
+            }
+          <TextInput 
+            style={[testHandlerStyle.input, {marginTop: 15, borderColor: (currTestState.pp==1)? "#0f0": (currTestState.pp==0)? "#f00": "#000"}]} 
+            placeholder="Past participle" 
+            value={resValues.pp}
+            autoCapitalize="none"
+            onChangeText={(val=>{setResValues({...resValues, pp: val})})}
+            />
+            {
+              currTestState.pp==0 &&
+              <Text style={{color: "#CEAC13FF", fontSize: 20, textAlign: 'center'}}>{data[results.currentWord].pp.toLowerCase()}</Text>
+            }
+          {!check ? (
+            <TouchableOpacity style={testHandlerStyle.checkBtn} onPress={checkResult}>
+              <Text style={{ fontSize: 18, color: "#fff" }}>{"Check"}</Text>
+            </TouchableOpacity>
+          ) : (
+            <TouchableOpacity style={[testHandlerStyle.checkBtn, {backgroundColor: "#00f"}]} onPress={nextWord}>
+              <Text style={{ fontSize: 18, color: "#fff" }}>{"Next"}</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+      </View>
     </View>
   );
 }
-
-
-
-const ListView = ({selectedItems, setSelectedItems}) => {
-  const renderItem = ({ item, index }) => (
-    <View>
-        <TouchableOpacity
-          style={[textStyle.row, textStyle.around, textStyle.list, {paddingHorizontal: 20}]}
-          onPress={() => handleCheckboxChange(index)}
-        >
-          <View style={textStyle.row}>
-            <View style={[textStyle.items, {width: "20%"}]}>
-              <Text style={textStyle.itemText}>{index+1}</Text>
-            </View>
-            <View style={[textStyle.items, {width: "50%"}]}>
-              <Text style={textStyle.itemText}>{item.word}</Text>
-            </View>
-          </View>
-          <Checkbox
-            style={{ margin: 8, zIndex: 15 }}
-            value={selectedItems.includes(index)}
-            onValueChange={() => handleCheckboxChange(index)}
-          />
-        </TouchableOpacity>
-        <View
-          style={{ width: "100%", height: 0.5, backgroundColor: "#000" }}
-        ></View>
-    </View>
-  );
-
-  const handleCheckboxChange = (itemId) => {
-    setSelectedItems((prevSelectedItems) => {
-      if (prevSelectedItems.includes(itemId)) {
-        return prevSelectedItems.filter((id) => id !== itemId);
-      } else {
-        return [...prevSelectedItems, itemId];
-      }
-    });
-  };
-
-  const MemoizedFlatList = useMemo(() => (
-    <FlatList
-      data={data}
-      keyExtractor={(item) => item.word}
-      renderItem={(item, index)=>renderItem(item, index)}
-    />
-  ), [selectedItems]);
-  return MemoizedFlatList;
-};
-
 
 export default Test;
